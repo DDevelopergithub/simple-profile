@@ -1,1 +1,28 @@
 
+/* CDN link- Google font family */
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Lobster&family=Poetsen+One&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+#main-section{ 
+   border: 1px solid rgb(235, 73, 73);
+   width: 550px;
+   height: 350px;
+   margin: 80px auto;
+   border-radius: 10px;
+}
+ #profile-info{  
+    border: 1px solid rgb(184, 231, 108);
+    display: inline-block;
+}
+ #profile-info img{ 
+    width: 250px;
+    border-radius: 50%;
+}
+#profile-desc{
+    border: 1px solid rgb(85, 165, 218);
+ } 
